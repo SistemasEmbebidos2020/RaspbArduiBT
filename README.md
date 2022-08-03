@@ -4,6 +4,9 @@ Comunicación bluetooth bidireccional arduino y raspberry
 
 ## Actualizar fecha:
 #### sudo date -s "Mon Aug 01 08:20:00 -05 2022"
+## Actualizar rasp:
+#### sudo apt-get update
+
 ## En caso de ser necesario:
 #### sudo apt-get install bluez bluetooth blueman
 ## Si no está iniciado bt:
