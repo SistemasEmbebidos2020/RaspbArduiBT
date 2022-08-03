@@ -1,3 +1,4 @@
+#include <Arduino.h>
 #include <SoftwareSerial.h>   // Incluimos la librería  SoftwareSerial  
 
 SoftwareSerial BT(10,11);    // Definimos los pines RX y TX del Arduino conectados al Bluetooth
@@ -33,4 +34,4 @@ void loop()
   else if (lect == "offall") { for (int i=4;i<=5;i++) PORTD &= ~(1<<i);  BT.println("leds apagados") ;}
   else if (lect == "onall")  { for (int i=4;i<=5;i++) PORTD |= (1<<i);  BT.println("leds encendidos") ;}
   delay(250);
-}1
+}
