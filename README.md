@@ -6,6 +6,10 @@ Comunicación bluetooth bidireccional arduino y raspberry
 #### sudo date -s "Mon Aug 01 08:20:00 -05 2022"
 ## Actualizar rasp:
 #### sudo apt-get update
+## Instalar modulo bt
+#### sudo apt-get install bluetooth libbluetooth-dev
+#### sudo apt-get install bluez
+#### sudo python3 -m pip install pybluez
 
 ## En caso de ser necesario:
 #### sudo apt-get install bluez bluetooth blueman
@@ -23,8 +27,5 @@ Comunicación bluetooth bidireccional arduino y raspberry
 ## Para conectarse al bt 
 #### sudo rfcomm connect hci 99:99:99:99:99:99
 ## ctrl z para salir modo bt
-## Instalar modulo bt
-#### sudo apt-get install bluetooth libbluetooth-dev
-#### sudo apt-get install bluez
-#### sudo python3 -m pip install pybluez
+## ctrl c para salir
 ## Probar código arduino y raspberry en github
