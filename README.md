@@ -26,5 +26,5 @@ Comunicación bluetooth bidireccional arduino y raspberry
 ## Instalar modulo bt
 #### sudo apt-get install bluetooth libbluetooth-dev
 #### sudo apt-get install bluez
-#### sudo apt-get install python-bluez
+#### sudo python3 -m install pybluez
 ## Probar código arduino y raspberry en github
