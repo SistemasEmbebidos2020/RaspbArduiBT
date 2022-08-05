@@ -19,7 +19,7 @@ Comunicación bluetooth bidireccional arduino y raspberry
 ## Paso6: buscar dispositivos cercanos
 #### default-agent
 #### scan on
-##### Si sale un error Reiniciar la Raspberry con sudo reboot
+### Paso Opcional:  Si sale un error Reiniciar la Raspberry con sudo reboot
 ##### y repetir desde el paso 6
 ## Paso7: Para Emparejar con el dispositivo bt
 #### pair 99:99:99:99:99
