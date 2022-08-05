@@ -27,9 +27,10 @@ Comunicación bluetooth bidireccional arduino y raspberry
 ### puede ser 1234 o 2022 o 1111 o 0000
 ## Paso9: Para establecer conexion de confianza
 #### trust 99:99:99:99:99
-## Paso10: Para conectarse al bt 
+## Paso10: ctrl z para salir modo bt
+## Paso11: Para conectarse al bt 
 #### sudo rfcomm connect hci 99:99:99:99:99:99
-## Paso11: ctrl z para salir modo bt
+
 ## Paso12: ctrl c para salir
 
 # Paso13: Cargar código arduino y ejecutar código respectivo en raspberry
