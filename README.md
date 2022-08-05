@@ -28,4 +28,4 @@ Comunicación bluetooth bidireccional arduino y raspberry
 ## ctrl z para salir modo bt
 ## ctrl c para salir
 
-# Probar código arduino y raspberry en github
+# Cargar código arduino y ejecutar código respectivo en raspberry
