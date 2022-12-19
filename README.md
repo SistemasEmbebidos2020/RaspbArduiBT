@@ -1,6 +1,5 @@
-# RaspbArduiBT
-Comunicación bluetooth bidireccional arduino y raspberry 
-
+# RaspbBT
+Comunicación bluetooth bidireccional entre sistemas embebidos
 
 ## Paso1: Actualizar fecha:
 #### sudo date -s "Mon Aug 01 08:20:00 -05 2022"
@@ -34,4 +33,4 @@ Comunicación bluetooth bidireccional arduino y raspberry
 
 ## Paso12: ctrl c para salir
 
-# Paso13: Cargar código arduino y ejecutar código respectivo en raspberry
+# Paso13: ejecutar código respectivo en raspberry
