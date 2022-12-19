@@ -31,3 +31,4 @@ try:
 except:
  print("bye  ") 
  sock.close()
+ GPIO.cleanup()
