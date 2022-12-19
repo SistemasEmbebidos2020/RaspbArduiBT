@@ -3,7 +3,7 @@ Comunicación bluetooth bidireccional entre sistemas embebidos
 
 ## Paso1: Actualizar fecha: Ojo, modificar día y hora y año de ser necesario, el parámetro -05 es la zona hroaria
 #### sudo date -s "Mon Aug 01 08:20:00 -05 2022"
-## Paso2: Actualizar rasp:
+## Paso2: Actualizar rasp: Suele demorar bastante dependiendo del internet y de su raspberry
 #### sudo apt-get update
 ## Paso3: Instalar modulo bt
 #### sudo apt-get install bluetooth libbluetooth-dev
