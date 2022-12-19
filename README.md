@@ -1,7 +1,7 @@
 # RaspbBT
 Comunicación bluetooth bidireccional entre sistemas embebidos
 
-## Paso1: Actualizar fecha:
+## Paso1: Actualizar fecha: Ojo, modificar día y hora y año de ser necesario, el parámetro -05 es la zona hroaria
 #### sudo date -s "Mon Aug 01 08:20:00 -05 2022"
 ## Paso2: Actualizar rasp:
 #### sudo apt-get update
