@@ -24,6 +24,7 @@ Comunicación bluetooth bidireccional arduino y raspberry
 ## Paso7: Para Emparejar con el dispositivo bt
 #### pair 99:99:99:99:99
 ## Paso8: Les solicitará un Pin perteneciendo al bt disponible
+### Si su dispositivo tiene contraseña ingresar la que tenga configurado
 ### puede ser 1234 o 2022 o 1111 o 0000
 ## Paso9: Para establecer conexion de confianza
 #### trust 99:99:99:99:99
