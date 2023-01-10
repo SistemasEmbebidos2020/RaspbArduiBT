@@ -15,7 +15,8 @@ uint8_t led2 =39;
 
 void setup()
 {
-  DDRD |= (1<<led1) | (1<<led2);
+  pinMode(led1,OUTPUT);
+  pinMode(led2,OUTPUT);
   SerialBT.begin("DarNombre");       // Inicializamos el puerto serie BT que hemos creado
   Serial.begin(9600);   // Inicializamos  el puerto serie  
   delay(5000);
