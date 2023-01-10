@@ -42,3 +42,6 @@ void loop()
   else if (lect == "offall")  { for (int i=4;i<=5;i++) digitalWrite(i,LOW);  SerialBT.println("leds apagados") ;}
   delay(250);
 }
+
+
+#https://gallery.appinventor.mit.edu/?galleryid=97121fe2-ef37-4d52-a4f5-0346e00a29b4
