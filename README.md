@@ -7,9 +7,8 @@ Comunicación bluetooth bidireccional entre sistemas embebidos
 #### sudo apt-get update
 ## Paso3: Instalar modulo bt
 #### sudo apt-get install bluetooth libbluetooth-dev
-#### sudo apt-get install bluez
 #### sudo python3 -m pip install pybluez
-#### sudo apt-get install bluez bluetooth blueman
+#### sudo apt-get install bluez bluetooth blueman ;opcional
 
 ## Paso4: Si no está iniciado bt:
 #### sudo systemctl start bluetooth
